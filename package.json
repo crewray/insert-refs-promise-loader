@@ -1,0 +1,33 @@
+{
+  "name": "insert-refs-promise-loader",
+  "version": "1.0.0",
+  "description": "A Webpack loader to handle this.$refs usage in Vue components",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crewray/insert-refs-promise-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "vue",
+    "$refs",
+    "async"
+  ],
+  "author": "crewray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crewray/insert-refs-promise-loader/issues"
+  },
+  "homepage": "https://github.com/crewray/insert-refs-promise-loader#readme",
+  "dependencies": {
+    "@babel/parser": "^7.14.7",
+    "@babel/traverse": "^7.14.7",
+    "@babel/generator": "^7.14.7",
+    "@babel/types": "^7.14.5",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
